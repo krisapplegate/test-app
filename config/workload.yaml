@@ -8,7 +8,7 @@ metadata:
 spec:
   params:
     - name: run-image
-      value: index.docker.io/kapplegate/tap-dev/tanzu-java-web-app
+      value: kapplegate.azurecr.io/tap/tanzu-java-web-app
   source:
     git:
       url: https://github.com/sample-accelerators/tanzu-java-web-app
