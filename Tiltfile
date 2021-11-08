@@ -1,7 +1,7 @@
 load('.tanzu/tanzu_tilt_extensions.py', 'tanzu_k8s_yaml')
 
 
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='index.docker.io/tanzu-java-web-app-source')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='kapplegate.azurecr.io/tap/tanzu-java-web-app-source')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 
 custom_build('kapplegate.azurecr.io/tap/tanzu-java-web-app',
